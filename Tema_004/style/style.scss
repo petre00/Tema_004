@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&family=Source+Sans+Pro:wght@600&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 8px;
+  width: 380px;
+  height: 436px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Khula', sans-serif;
+  strong{
+    color: #1C1F37;
+  }
+  .header{
+    height: 64px;
+    border-bottom: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    strong{
+      padding: 20px;
+    }
+    span{
+      padding: 20px;
+      font-size: 14px;
+      color: #017EFA;
+    }
+  }
+  .content{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    .row-header{
+      display: flex;
+    }
+    .date{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 40px;
+      height: 46px;
+      left: 470px;
+      border: 1px solid #E5E5E5;
+      border-radius: 4px;
+      font-weight: 600;
+      strong{
+        font-size: 18px;
+        color: #1C1F37;
+      }
+      span{
+        font-size: 12px;
+        color: #1C1F37;
+        opacity: 0.5;
+      }
+    }
+    .content-title{
+      strong{
+        padding-left: 8px;
+        font-weight: 600;
+        color: #1C1F37;
+      }
+      span{
+        padding-left: 8px;
+        font-weight: 600;
+        font-size: 12px;
+        color: #1C1F37;
+        opacity: 0.5;
+      }
+    }
+    .row-progress{
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #E5E5E5;
+      padding-bottom: 10px;
+      progress{
+        background: #51CBFF;
+        height: 4px;
+        border-radius: 44px;
+        width: 100px;
+        opacity: 0.4;
+      }
+      span{
+        margin-left: 12px;
+        font-weight: 600;
+        font-size: 12px;
+        color: #1C1F37;
+        opacity: 0.5;
+      }
+    }
+  }
+}
