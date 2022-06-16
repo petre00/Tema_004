@@ -41,6 +41,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 12px;
+
     .row-header{
       display: flex;
     }
@@ -83,6 +84,9 @@ body{
       align-items: center;
       border-bottom: 1px solid #E5E5E5;
       padding-bottom: 10px;
+      &:nth-last-child{
+        border-bottom: none;
+      }
       progress{
         background: #51CBFF;
         height: 4px;

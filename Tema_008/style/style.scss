@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 1120px;
+  height: 425px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  span{
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-top: 64px;
+  }
+  .line{
+    width: 56px;
+    height: 2px;
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-top: 137px;
+  }
+  .content{
+    position: absolute;
+    display: flex;
+    align-self: center;
+    padding: 205px 118px 79px 118px;
+    .description{
+      padding-left: 323px;
+      font-weight: 400;
+      font-size: 19px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+    .name{
+      position: absolute;
+      align-self: center;
+      padding-left: 170px;
+      display: block;
+      .function{
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.85);
+      }
+      span{
+        font-size: 22px;
+        color: #FFFFFF;
+      }
+
+    }
+    img{
+      align-self: center;
+      border: 3px solid #FFFFFF;
+      border-radius: 50%;
+    }
+  }
+}

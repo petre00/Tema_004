@@ -85,6 +85,9 @@ body {
   border-bottom: 1px solid #E5E5E5;
   padding-bottom: 10px;
 }
+.container .content .row-progress:nth-last-child {
+  border-bottom: none;
+}
 .container .content .row-progress progress {
   background: #51CBFF;
   height: 4px;
